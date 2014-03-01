@@ -1,0 +1,23 @@
+{
+    "name": "azrodin/demo-package",
+    "description": "Demo Laravel 4 Package. Create for learning purposes...",
+    "authors": [
+        {
+            "name": "Anton",
+            "email": "antonzekeriev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Azrodin\\DemoPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
