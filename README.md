@@ -10,7 +10,7 @@ Package Installation:
 
 ```JavaScript
 	requiere "azrodin/demo-package": "dev-master"
-```JavaScript
+```J
 
 And... register inside <strong>App/config/app.php</strong>
 
