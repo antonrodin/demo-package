@@ -8,7 +8,7 @@ Package Installation:
 
 <strong>composer.json</strong>
 
-```JavaScript
+```javascript
 	requiere "azrodin/demo-package": "dev-master"
 ```
 
@@ -19,6 +19,7 @@ And... register inside <strong>App/config/app.php</strong>
 ```
 
 Use:
+---
 
 ```PHP
 	DemoClass::foo();
